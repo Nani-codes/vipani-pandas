@@ -5,9 +5,9 @@ import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/navbar";
 
 export const metadata = {
-  title: "AI SDK Python Streaming Preview",
+  title: "Atals AI",
   description:
-    "Use the Data Stream Protocol to stream chat completions from a Python endpoint (FastAPI) and display them using the useChat hook in your Next.js application.",
+    "Get insights from your data with Atlas AI. Ask questions and get instant answers.",
   openGraph: {
     images: [
       {
@@ -33,9 +33,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head></head>
-      <body className={cn(GeistSans.className, "antialiased dark")}>
-        <Toaster position="top-center" richColors />
-        <Navbar />
+      <body >
+        {/* <Toaster position="top-center" richColors /> */}
+        {/* <Navbar /> */}
         {children}
       </body>
     </html>

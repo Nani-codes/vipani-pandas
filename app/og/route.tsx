@@ -12,7 +12,7 @@ export async function GET(request: Request) {
   const description = searchParams.get("description");
 
   const imageData = await fetch(
-    new URL("./background.png", import.meta.url)
+    new URL("./vipani-logo-light.1b4feb56.svg", import.meta.url)
   ).then((res) => res.arrayBuffer());
 
   const geistSemibold = await fetch(
